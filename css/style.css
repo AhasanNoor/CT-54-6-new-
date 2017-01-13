@@ -1,0 +1,126 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+#bg-section{
+	background: yellow url(../images/bg.jpg);
+	height: 100vh;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+nav{
+
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    display: block;
+    font-size: 20px;
+    font-weight: 800;
+    transition: all 1s ease;
+    position: relative;
+}
+nav ul li a:after{
+    content: " ";
+    position: absolute;
+    right: 0;
+    height: 23px;
+    width: 3px;
+    background-color: #955e58;
+}
+nav ul li:last-child a:after{
+    background: transparent;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    color: rgb(22, 148, 194);
+    background-color: #e0e0e0;
+}
+nav ul li a:hover:after{
+    height: 0;
+     transition: all 1s ease;
+}
+.form{
+	text-align: center;
+    width: 464px;
+    max-width: 100%;
+    background-color: #E0E0E0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+}
+.form h1{
+    color: rgba(132, 65, 22, 0.81);
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.form img{
+    width: 41px;
+    max-width: 100%;
+    padding-left: 18px;
+}
+.Sign-up form input{
+    max-width: 100%;
+    width: 405px;
+    padding: 9px;
+    margin-bottom: 10px;
+}
+.check-box{
+	padding-bottom: 10px
+}
+.check-box form{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.check-box a{
+	padding-left: 186px;
+    text-decoration: none;
+    color: rgba(132, 65, 22, 0.81);  
+}
+.btn {
+    text-transform: uppercase;
+    color: rgba(34, 34, 34, 0.73);
+    background-color: rgba(132, 65, 22, 0.81);
+    text-decoration: none;
+    padding: 7px 185px;
+    font-size: larger;
+}
+.btn:hover{
+    background-color: rgba(149, 94, 59, 0.74);
+	color: #fff;
+	text-decoration: none;
+	transition: 1s;
+}
+p{
+	margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #955e3b;
+}
+a:hover{
+	text-decoration: underline;
+	color: rgba(8, 55, 79, 0.89);
+	transition: 1s;
+}
